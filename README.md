@@ -1,6 +1,6 @@
 Olá, sejam bem-vindos ao meu espaço aqui no GitHub.
 
-Sou um arquiteto de soluções digitais e consultor em gestão de informação. Atuo na **[PUC Minas](https://pucminas.br)** como professor e coordenador de cursos de pós-graduação na área de tecnologias da informação e comunicação (TICs).
+Sou um arquiteto de soluções digitais e consultor em gestão da informação. Atuo na **[PUC Minas](https://pucminas.br)** como professor e coordenador de cursos de pós-graduação na área de tecnologias da informação e comunicação (TICs).
 
 ## Principais Projetos
 
