@@ -1,0 +1,14 @@
+{% include header.html %}
+<div class="wrapper">
+    {% include sidebar.html %}      
+    <div class="content">
+        <div class="logotipo">rommelcarneiro<span class="destaque">▪</span>me</div>
+        {{ content }}
+
+        {% include contact.html %} 
+        {% include copyright.html %}  
+    </div>
+
+</div>
+
+{% include footer.html %}

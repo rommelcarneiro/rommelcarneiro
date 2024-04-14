@@ -1,0 +1,18 @@
+{% include header.html %}
+<div class="wrapper">
+    {% include sidebar.html %}       
+    <div class="content post-wrapper">
+        <div class="logotipo">rommelcarneiro<span class="destaque">▪</span>me</div>
+        <div class="post-content">
+            <div class="post-banner"><img src="/assets/img/artigos/{{ page.image }}" alt="Banner da postagem"></div>
+            <h1 class="post-title">{{ page.title  }}</h1>
+            {{ content }}
+        </div>
+
+        {% include contact.html %} 
+        {% include copyright.html %}
+    </div>
+
+</div>
+
+{% include footer.html %}

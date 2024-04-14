@@ -2,6 +2,8 @@ Olá, sejam bem-vindos ao meu espaço aqui no GitHub.
 
 Sou um arquiteto de soluções digitais e consultor em gestão da informação. Atuo na **[PUC Minas](https://pucminas.br)** como professor e coordenador de cursos de pós-graduação na área de tecnologias da informação e comunicação (TICs).
 
+✳️ Para mais detalhes, acesso meu site: [rommelcarneiro.me](https://rommelcarneiro.me/)
+
 ## Principais Projetos
 
 * **[Núcleo de Tecnologias Digitais | Pós-graduação PUC Minas](https://icei.pucminas.br/latosensu/)**

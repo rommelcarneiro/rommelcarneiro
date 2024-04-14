@@ -1,0 +1,76 @@
+{% include header.html %}
+<div class="wrapper">
+    {% include sidebar.html %}      
+    <div class="content">
+        <div class="logotipo">rommelcarneiro<span class="destaque">▪</span>me</div>
+        {{ content }}
+
+        <!-- projects Start -->
+        <div class="projects" id="projects">
+            <div class="content-inner">
+                <div class="content-header">
+                    <h2>projetos</h2>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="srv-col">
+                            <i class="fa fa-users"></i>
+                            <h3><a href="https://webtech.network" target="_blank">WebTech</a></h3>
+                            <p>Grupo de alunos com objetivo de gerar espaço de trabalho e discussão para criação de aplicações, ferramentas e conteúdo com foco em soluções e produtos digitais.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="srv-col">
+                            <i class="fa fa-university"></i>
+                            <h3><a href="https://icei.pucminas.br" target="_blank">Núcleo Tecnologias Digitais</a></h3>
+                            <p>A maior e melhor oferta de cursos de pós-graduação da área digital do Brasil. São cursos para quem pretende trabalhar na criação e gestão de soluções digitais.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- projects Start -->
+
+
+        <!-- Portfolio Start -->
+        <div class="portfolio" id="artigos">
+            <div class="content-inner">
+                <div class="content-header">
+                    <h2>artigos</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul id="portfolio-flters">
+                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter=".carreira">Carreira</li>
+                            <li data-filter=".tecnologia">Tecnologia</li>
+                            <li data-filter=".inovacao">Inovação</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row portfolio-container">
+                    {% for post in site.posts %}
+                    <div class="col-md-6 portfolio-item {% for tag in post.tags %} {{ tag }} {% endfor %}">
+                        <div class="portfolio-wrap">
+                            <figure>
+                                <img src="/assets/img/artigos/{{ post.image }}" class="img-fluid" alt="">
+                                <a href="{{ post.url }}" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                
+                            </figure>
+                            <p class="portfolio-title" ><a href="{{ post.url }}">{{ post.title }}</a></p>
+                        </div>
+                    </div>
+                    {% endfor %}
+
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Start -->
+
+        {% include contact.html %} 
+        {% include copyright.html %}  
+    </div>
+
+</div>
+
+{% include footer.html %}
